@@ -1,0 +1,38 @@
+.CardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom:30px ;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 250px;
+  
+}
+.imageContainer{
+    max-width: 250px;
+    
+}
+.image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color:rgb(0, 0, 0,0.6) ;
+}
+.viewBtn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 128, 0,0.6);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}

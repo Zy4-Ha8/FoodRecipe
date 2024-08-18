@@ -1,0 +1,51 @@
+.parentDailts {
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.6);
+  padding: 20px;
+}
+.imgContainer {
+  max-width: 500px;
+}
+.image {
+  border-radius: 10px;
+  width: 100%;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(0, 0, 0, 0.6);
+}
+.info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: small;
+  color: rgb(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.pricePerServing{
+  text-align: center;
+}
+.Instruction {
+  padding: 0;
+  border-radius: 5px;
+  color: #6e6c6f;
+}
+.Instruction ol {
+  margin-left: 0px;
+
+}
+.Instruction li {
+  margin: 10px 0px;
+
+}
+.IngredientHeader{
+  padding: 0;
+  border-radius: 5px;
+  color: #2b2b2b;
+}
